@@ -1,0 +1,59 @@
+<?php
+
+$config=array(
+
+	// carpetas de entrada y salida (tienen que estar creadas)
+	// la carpeta de entrada debe tener un archivo por cada año
+	// en formato csv (separado por comas y usando dobles comillas como delimitador)
+	// con los datos de los artículos y su doi
+	'inputFolder'	=> './input',
+	'outputFolder'	=> './output',
+
+	// nombre del origin de los dtas: WOS, Scopus, CRIS, ...
+	'sourceName'	=> 'localexample',
+	
+	// indice del campo donde estan los datos de titulo, autores y doi
+	// 0 es el primer campo
+	'indexTitle'	=> 1,
+	'indexAuthor'	=> 2,
+	'indexDOI'		=> 3,
+
+	//Indica si la primera fila del csv es la cabecera
+	// por defecto sí
+	'hasHeader' => true,
+
+	// array de urls con los dominios de los identificadores del repositorio local
+	// en caso del handle incluir tambien el prefijo
+	'localdomain' => array('example.com','hdl.handle.net/123456789'),
+	
+	// comprobar API crossref para obtener la licencia
+	'crossrefRequest' => false,
+
+	// indice del campo donde se indica si es una revista OA,
+	// y valor que debe tener (en el caso que la extracción de datos la proporciona)
+	// (se puede comentar si el csv no contiene esta información)
+	'valueGOLD' => 'gold',
+	'indexGOLD' => 4,
+	
+	// indice del campo con la url del repositorio
+	// (para extracción realizada desde el CRIS)
+	// (se puede comentar si el csv no contiene esta información)
+	'indexREPOurl' => 5,
+
+	// Caso especial para incluir un indice donde indica que el articulo está en abierto
+	// y valor que debe tener el campo
+	// Este campo permite consultar la disponibilidad en publicaciones sin DOI
+	// (para extracción realizada desde el CRIS)
+	// (se puede comentar si el csv no contiene esta información)
+	'indexRights' => 6,
+	'valueRights' => 'Open Access',
+
+	// correo electronico a incluir en las consultas de la API de oaDOI
+	'email'			=> 'test@example.com',
+
+	// Muestra mas información durante el proceso
+	'verbose' 		=> true
+		);
+
+?>
+

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "caseyamcl/phpoaipmh": "^2.6",
+        "guzzlehttp/guzzle":   "^6.3"
+    }
+}

@@ -428,4 +428,6 @@ foreach($csvFiles as $numFile => $filename)
 	}
 }
 fclose($foAll);	
+
+echo "\nProceso finalizado. Comprueba la carpeta " . $config["outputFolder"] . " para ver los archivos generados\n\n";
 ?>

@@ -8,7 +8,7 @@ A partir de un CSV con un listado de publicaciones consulta si hay versiones en 
 
 Descarga el código en una carpeta local.
 
-Descarga las librerías externas mediante [composer](https://getcomposer.org/download/) ejecuta desde la carpeta:
+Descarga las librerías externas mediante [composer](https://getcomposer.org/download/) ejecutando desde la carpeta:
 
 ```
 $ php composer.phar install
@@ -20,13 +20,13 @@ Para utilizarlo:
 
 1. Crea uno o varios archivos CSV distribuidos por año que contengan un listado de publicaciones con DOI, título y autores y guarda estos archivos en una carpeta de entrada. Los CSVs deben estar separados por comas y usar doble comillas como delimitador.
 
-2. Personaliza el archivo config.php indicando en que columna se encuentra cada campo (consulta el archivo para más opciones)
+2. Personaliza el archivo config.php indicando en que columna se encuentra cada campo (consulta el archivo config.php.example para más opciones)
 
 ## Ejecución
 
 ### Paso previo (descargar información OAI local)
 
-Para utilizar la información sobre las publicaciones disponibles en el repositorio local es necesario lanzar primero el script load-doi-from-repository.php indicando la url base del servidor OAI para descargar el listado de publicaciones con su doi, url y condiciones de acceso y isa generar un archivo local que se utilizará luego.
+Para utilizar la información sobre las publicaciones disponibles en el repositorio local es necesario lanzar primero el script load-doi-from-repository.php indicando la url base del servidor OAI para descargar el listado de publicaciones con su doi, url y condiciones de acceso y así generar un archivo local que se utilizará luego.
 
 ```
 $ php load-doi-from-repository.php -o <oai_endpoint>

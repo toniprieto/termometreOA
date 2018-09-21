@@ -2,7 +2,7 @@
 
 Scripts PHP para consultar el grado de apertura de un listado de publicaciones a partir de su DOI.
 
-A partir de un CSV con un listado de publicaciones consulta si hay versiones en abierto de la publicación y si se trata de revistas OA mediante consultas a las API de oaDOI, OpenAire y al repositorio local y genera una tabla que indica el grado de apertura entre otros datos.
+A partir de un CSV con un listado de publicaciones consulta si hay versiones en abierto de la publicación y si se trata de revistas OA mediante consultas a las API de oaDOI, OpenAire y al repositorio local generando una tabla que indica el grado de apertura entre otros datos.
 
 ## Instalación
 

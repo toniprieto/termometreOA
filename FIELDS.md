@@ -8,15 +8,15 @@
 |Total|Número de publicaciones|
 |NO DOI|Número de publicaciones sin DOI informado|
 |OA JOURNAL|Número de publicaciones en revistas OA|
-|OA JOURNAL (LOCAL IR)|Número de publicaciones en revistas OA disponibles en el repositorio local|
-|OA JOURNAL (NO LOCAL IR)|Número de publicaciones en revistas OA **no** disponibles en el repositorio local|
+|OA JOURNAL (LOCAL IR)|Número de publicaciones en revistas OA disponibles en abierto/embargado el repositorio local|
+|OA JOURNAL (NO LOCAL IR)|Número de publicaciones en revistas OA **no** disponibles en abierto/embargado en el repositorio local|
 |HYBRID JOURNAL|Número de publicaciones encontradas en una revista híbrida|
-|HYBRID JOURNAL (LOCAL IR)|Número de publicaciones encontradas en una revista híbrida disponibles en el repositorio local|
-|HYBRID JOURNAL (NO LOCAL IR)|Número de publicaciones encontradas en una revista híbrida **no** disponibles en el repositorio local|
+|HYBRID JOURNAL (LOCAL IR)|Número de publicaciones encontradas en una revista híbrida disponibles en abierto/embargado en el repositorio local|
+|HYBRID JOURNAL (NO LOCAL IR)|Número de publicaciones encontradas en una revista híbrida **no** disponibles en abierto/embargado en el repositorio local|
 |OA REPOSITORY|Número de publicaciones encontradas en un repositorio disponibles (y no en una revista OA o Híbrida)|
-|OA REPOSITORY (LOCAL IR)|Número de publicaciones encontradas en un repositorio y disponibles en el repositorio local|
-|OA REPOSITORY (NO LOCAL IR)|Número de publicaciones encontradas en un repositorio y **no** disponibles en el repositorio local|
-|LOCAL IR ONLY|Número de publicaciones que solo se han encontrado en el repositorio local (puede ser errónea)|
+|OA REPOSITORY (LOCAL IR)|Número de publicaciones encontradas en un repositorio y disponibles en abierto/embargado en el repositorio local|
+|OA REPOSITORY (NO LOCAL IR)|Número de publicaciones encontradas en un repositorio y **no** disponibles en abierto/embargado en el repositorio local|
+|LOCAL IR ONLY|Número de publicaciones que solo se han encontrado en abierto/embargado en el repositorio local (puede ser errónea)|
 |NO OA|Número de publicaciones no encontradas en abierto|
 |% OA|Porcentage de publicaciones en abierto (no cuenta las publicaciones sin DOI)|
 

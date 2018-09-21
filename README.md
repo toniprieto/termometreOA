@@ -50,4 +50,4 @@ Al finalizar el proceso crea en la carpeta de salida configurada diferentes arch
 
 * Archivo <nombre_archivo>_all.csv con la tabla resumen de los datos procesados (una fila por archivo)
 
-[Ver tabla con los campos disponibles en cada archivo](FIELDS.txt)
+[Ver tabla con los campos disponibles en cada archivo](FIELDS.md)

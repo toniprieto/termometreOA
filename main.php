@@ -1,6 +1,6 @@
 <?php
 /**
- * Utilidad CLI para comprobar el estado de obertura
+ * Utilidad CLI para comprobar el acceso abierto
  * de un listado de publicaciones a través de su DOI
  * USO: php main.php -c config.php
  *

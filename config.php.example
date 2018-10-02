@@ -12,8 +12,13 @@ $config=array(
 	// nombre del origin de los dtas: WOS, Scopus, CRIS, ...
 	'sourceName'	=> 'localexample',
 	
-	// indice del campo donde estan los datos de titulo, autores y doi
+	// indice del campo donde están los datos de titulo, autores y doi
 	// 0 es el primer campo
+    // Por ejemplo, para WOS, en Oct. 2018, se pueden usar los siguientes
+    // parámetros:
+    //	'indexDOI'		=> 28,
+    //	'indexAuthor'	=> 1,
+    //	'indexTitle'	=> 9,
 	'indexTitle'	=> 1,
 	'indexAuthor'	=> 2,
 	'indexDOI'		=> 3,
@@ -23,7 +28,7 @@ $config=array(
 	'hasHeader' => true,
 
 	// array de urls con los dominios de los identificadores del repositorio local
-	// en caso del handle incluir tambien el prefijo
+	// en caso del handle incluir también el prefijo
 	'localdomain' => array('example.com','hdl.handle.net/123456789'),
 	
 	// comprobar API crossref para obtener la licencia
@@ -48,7 +53,7 @@ $config=array(
 	'indexRights' => 6,
 	'valueRights' => 'Open Access',
 
-	// correo electronico a incluir en las consultas de la API de oaDOI
+	// correo electrónico a incluir en las consultas de la API de oaDOI
 	'email'			=> 'test@example.com',
 
 	// Muestra mas información durante el proceso
